@@ -10,12 +10,12 @@ function whisper(string) {
 
 // 3. logShout function
 function logShout(string) {
-  console.log(`${string}`.toUpperCase())
+  console.log(shout(string))
 }
 
 // 4. logWhisper function
 function logWhisper(string) {
-  console.log(`${string}`.toLowerCase())
+  console.log(whisper(string))
 }
 
 // 5. Uppercase / Lowercase checks
