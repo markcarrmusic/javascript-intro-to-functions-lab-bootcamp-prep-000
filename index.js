@@ -18,22 +18,6 @@ function logWhisper(string) {
   console.log(whisper(string))
 }
 
-// 5. Uppercase / Lowercase checks
-var uppercase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase // true: the string is uppercase 
-
-var lowercase = "hello!"
-
-lowercase.toLowerCase() === lowercase // true: the string is lowercase
-
-var mixedCase = "Hi there!"
-
-mixedCase.toLowerCase() === mixedCase // false: the string is not all lowercase
-
-mixedCase.toUpperCase() === mixedCase // false: the string is not all uppercase
-
-
 // 6. sayHiToGrandma function
 function sayHiToGrandma(string) {
   if (string === shout(string)) {
