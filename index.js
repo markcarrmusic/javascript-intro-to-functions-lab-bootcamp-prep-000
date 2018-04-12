@@ -42,7 +42,7 @@ function sayHiToGrandma(string) {
   else if (string === whisper(string)) {
     return "I can't hear you!"
   }
-  else if (string === "I love you, Grandma") {
+  else if (string = "I love you, Grandma") {
     return "I love you, too." 
   }
 }
