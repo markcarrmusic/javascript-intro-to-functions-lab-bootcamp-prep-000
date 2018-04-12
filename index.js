@@ -36,13 +36,13 @@ mixedCase.toUpperCase() === mixedCase // false: the string is not all uppercase
 
 // 6. sayHiToGrandma function
 function sayHiToGrandmma(string) {
-  if (string.toUpperCase() === string) {
-    return "YES INDEED!";
+  if (string === string.toUpperCase()) {
+    return "YES INDEED!"
   }
-  else if (string.toLowerCase() === string) {
-    return "I can't hear you!";
+  else if (string === string.toLowerCase()) {
+    return "I can't hear you!"
   }
   else if (string === "I love you, Grandma") {
-    return "I love you, too." ;
+    return "I love you, too." 
   }
 }
